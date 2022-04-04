@@ -1,0 +1,19 @@
+.send-tweet {
+  &__open-modal {
+    position: fixed !important;
+    right: 30px;
+    bottom: 30px;
+    background-color: #00acee !important;
+    z-index: 1;
+  }
+  &__close-modal {
+    cursor: pointer;
+    float: right;
+    font-size: 27px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
